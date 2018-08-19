@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "vs2005_SPAMColorLAB", "vs2005_SPAMColorLAB.vbproj", "{03FFEE22-3357-42AB-A704-E1A8AEF73678}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{03FFEE22-3357-42AB-A704-E1A8AEF73678}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03FFEE22-3357-42AB-A704-E1A8AEF73678}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03FFEE22-3357-42AB-A704-E1A8AEF73678}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03FFEE22-3357-42AB-A704-E1A8AEF73678}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

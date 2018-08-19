@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharp_TECSample", "CSharp_TECSample\CSharp_TECSample.csproj", "{99D51E93-85DB-44F2-A95E-E5774512EA6D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{99D51E93-85DB-44F2-A95E-E5774512EA6D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99D51E93-85DB-44F2-A95E-E5774512EA6D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99D51E93-85DB-44F2-A95E-E5774512EA6D}.Debug|x64.ActiveCfg = Debug|x64
+		{99D51E93-85DB-44F2-A95E-E5774512EA6D}.Debug|x64.Build.0 = Debug|x64
+		{99D51E93-85DB-44F2-A95E-E5774512EA6D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99D51E93-85DB-44F2-A95E-E5774512EA6D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{99D51E93-85DB-44F2-A95E-E5774512EA6D}.Release|x64.ActiveCfg = Release|x64
+		{99D51E93-85DB-44F2-A95E-E5774512EA6D}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

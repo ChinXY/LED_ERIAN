@@ -1,0 +1,33 @@
+#------------------------------------------------------------------------------
+# Makefile for Sample program written in C++ for Linux.
+# Author: Ocean Optics, Inc.
+#
+#==============================================================================
+# This code is provided "as-is" for demonstration purposes only.
+# Use this code at your own risk!
+#==============================================================================
+#
+# WARNING:
+#
+# Before using this Makefile, you need to ensure that the following 
+# environment variables have been defined:
+#
+#    JDK_HOME
+#    JAVA_HOME
+#    OMNIDRIVER_HOME
+#
+#==============================================================================
+
+CC=g++
+CFLAGS=-Wall -Wunused -DLINUX -fpic -I$(JDK_HOME)/include -I$(JDK_HOME)/include/linux -I$(OMNIDRIVER_HOME)/include
+GFLAGS=-g
+
+all: CPPSpectrumTest_Linux.o 
+	$(CC) -o SpectrometerTestSample CPPSpectrumTest_Linux.o -lcommon -lOmniDriver -L$(OMNIDRIVER_HOME)/_jvm/lib/amd64/server -ljvm  -L$(OMNIDRIVER_HOME)/OOI_HOME
+	rm *.o	
+
+CPPSpectrumTest_Linux.o:
+	$(CC) $(CFLAGS) -c CPPSpectrumTest_Linux.cc
+
+clean:
+	rm *.o

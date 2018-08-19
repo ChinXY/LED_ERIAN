@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2011/06/17 13:20:08.048.pas,C:\Documents and Settings\steve.shepherd\My Documents\Borland Studio Projects\Unit1.pas=C:\support\DelphiSample\Unit1.pas</Transaction>
+    <Transaction>2011/06/17 13:20:08.048.dfm,C:\Documents and Settings\steve.shepherd\My Documents\Borland Studio Projects\Unit1.dfm=C:\support\DelphiSample\Unit1.dfm</Transaction>
+    <Transaction>2011/06/17 13:20:25.614.bdsproj,C:\Documents and Settings\steve.shepherd\My Documents\Borland Studio Projects\Project1.bdsproj=C:\support\DelphiSample\DelphiSample.bdsproj</Transaction>
+  </Transactions>
+</BorlandProject>

@@ -1,0 +1,14 @@
+Release Notes for OmniDriver 2.39  - 2015.07.10
+
+
+New Features
+------------
+1. For Windows 32-bit install only: A selection will appear during product installation
+   which gives a choice to install either WinUSB or EzUSB drivers. This avoids the confusion 
+   of renaming driver dll files in order to switch between the two.
+
+      
+Bug Fixes
+---------
+1. For Spark product only: The first spectrum acquisition throws an exception an returns all zeros
+   for intensity values. All subsequent request work normally. This has been corrected.

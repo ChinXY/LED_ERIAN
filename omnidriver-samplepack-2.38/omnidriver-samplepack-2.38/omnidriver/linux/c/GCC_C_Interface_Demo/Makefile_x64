@@ -1,0 +1,30 @@
+#------------------------------------------------------------------------------
+# Makefile for Sample program written in C for Linux.
+# Author: Ocean Optics, Inc.
+#
+#==============================================================================
+# This code is provided "as-is" for demonstration purposes only.  Use this code
+# at your own risk!
+#==============================================================================
+#
+# Before using this Makefile, you need to ensure that the following 
+# environment variables have been defined:
+#
+#    JDK_INCLUDE_FILE_ROOT
+#    JVM_ROOT
+#    OMNIDRIVER_HOME
+#------------------------------------------------------------------------------
+
+CC=gcc
+CFLAGS=-Wall -Wunused -DLINUX -fpic -I$(JDK_INCLUDE_FILE_ROOT)/include -I$(JDK_INCLUDE_FILE_ROOT)/include/linux -I$(OMNIDRIVER_HOME)/include
+GFLAGS=-g
+
+all: CSpectrumTest_Linux.o 
+	$(CC) -o SpectrometerTestSample CSpectrumTest_Linux.o -lcommon -lOmniDriver -L$(JVM_ROOT)/lib/amd64/server -ljvm  -L$(OMNIDRIVER_HOME)/OOI_HOME
+	rm *.o	
+
+CSpectrumTest_Linux.o:
+	$(CC) $(CFLAGS) -c CSpectrumTest_Linux.c
+
+clean:
+	rm *.o
